@@ -13,22 +13,24 @@ To run this project, make sure you have the following installed:
 npm install sqlite3
 ```
 # Instructions for the Assignment
-Query 1: Create a new Table Music Video, that is a class of type Track (generalization) but adds the attribute Video director. A music video is a track. There cannot be a video without a track, and each track can have either no video or just one.        
+Query 1: What are the last names and emails of all customer who made purchased in the store?        
 [query1](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query1.sql)  
-Query 2: Write the queries that insert at least 10 videos, respecting the problem rules.      
+Query 2: What are the names of each album and the artist who created it?      
 [query2](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query2.sql)    
-Query 3:  Insert another video for the track "Voodoo", assuming that you don't know the TrackId, so your insert query should specify the TrackId directly.  
+Query 3: What are the total number of unique customers for each state, ordered alphabetically by state?  
 [query3](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query3.sql)      
-Query 4:  Write a query that lists all the tracks that have a ' in the name (e.g. Jorge Da Capadócia, o Samba De Uma Nota Só (One Note Samba)) (this is á,é,í,ó,ú).  
+Query 4: Which states have more than 10 unique customers?    
 [query4](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query4.sql)     
-Query 5: Creative addition. Make an interesting query that uses a JOIN of at least two tables.    
+Query 5: What are the names of the artists who made an album containing the substring "symphony" in the album title?      
 [query5](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query5.sql)       
-Query 6: Creative addition. Make an interesting query that uses a GROUP statement and at least two tables.    
+Query 6: What are the names of all artists who performed MPEG (video or audio) tracks in either the "Brazilian Music" or the "Grunge" playlists?      
 [query6](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query6.sql)       
-Query 7:  Write a query that lists all the customers that listen to longer-than-average tracks, excluding the tracks that are longer than 15 minutes.   
+Query 7: How many artists published at least 10 MPEG tracks?     
 [query7](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query7.sql)          
-Query 8:  Write a query that lists all the tracks that are not in one of the top 5 genres with longer duration in the database.   
-[query8](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query8.sql)     
+Query 8: What is the total length of each playlist in hours? List the playlist id and name of only those playlists that are longer than 2 hours, along with the length in hours rounded to two decimals.     
+[query8](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query8.sql)  
+Query 9: Creative addition: Define a new meaningful query using at least three tables, and some window function. Explain clearly what your query achieves, and what the results mean.  
+[query9](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query9.sql) 
 # How to Run
 1.Open Terminal  
 Make sure you are in a terminal window, and navigate to the directory where the chinook.db and query.sql files are located. Use the cd command to navigate to the correct directory. For example:
