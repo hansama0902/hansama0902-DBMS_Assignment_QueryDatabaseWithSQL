@@ -1,8 +1,7 @@
-SELECT customers.State, COUNT(DISTINCT customers.CustomerID) AS UniqueCustomers
+SELECT customers.State, COUNT(customers.CustomerID) AS UniqueCustomers
 FROM customers
 WHERE customers.State is NOT NULL
 GROUP BY customers.State
-HAVING COUNT(DISTINCT customers.CustomerID) > 10;
-
+HAVING COUNT(customers.CustomerID) > 10;
 
 
