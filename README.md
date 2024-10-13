@@ -6,7 +6,7 @@ To run this project, make sure you have the following installed:
 2.SQLite: The SQLite CLI or an SQLite GUI tool such as DB Browser for SQLite(I used DataGrip)  
 # Steps to Set Up the Environment
 1.Clone this repository  
-2.Download the SQLite sample database from the link below: [SQLite Sample Database](https://www.sqlitetutorial.net/sqlite-sample-database/).  
+2.Download the SQLite sample database from the link below: [MediaDB.db](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/DB_Sample/MediaDB.db).
 3.Place the downloaded chinook.db file in the root directory of this project.  
 4.Install the necessary dependencies:  
 ```bash
@@ -14,21 +14,21 @@ npm install sqlite3
 ```
 # Instructions for the Assignment
 Query 1: Create a new Table Music Video, that is a class of type Track (generalization) but adds the attribute Video director. A music video is a track. There cannot be a video without a track, and each track can have either no video or just one.        
-[query1](https://github.com/hansama0902/DBMS_Assignment-Project/blob/main/Query/query1.sql)  
+[query1](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query1.sql)  
 Query 2: Write the queries that insert at least 10 videos, respecting the problem rules.      
-[query2](https://github.com/hansama0902/DBMS_Assignment-Project/blob/main/Query/query2.sql)    
+[query2](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query2.sql)    
 Query 3:  Insert another video for the track "Voodoo", assuming that you don't know the TrackId, so your insert query should specify the TrackId directly.  
-[query3](https://github.com/hansama0902/DBMS_Assignment-Project/blob/main/Query/query3.sql)      
+[query3](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query3.sql)      
 Query 4:  Write a query that lists all the tracks that have a ' in the name (e.g. Jorge Da Capadócia, o Samba De Uma Nota Só (One Note Samba)) (this is á,é,í,ó,ú).  
-[query4](https://github.com/hansama0902/DBMS_Assignment-Project/blob/main/Query/query4.sql)     
+[query4](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query4.sql)     
 Query 5: Creative addition. Make an interesting query that uses a JOIN of at least two tables.    
-[query5](https://github.com/hansama0902/DBMS_Assignment-Project/blob/main/Query/query5.sql)       
+[query5](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query5.sql)       
 Query 6: Creative addition. Make an interesting query that uses a GROUP statement and at least two tables.    
-[query6](https://github.com/hansama0902/DBMS_Assignment-Project/blob/main/Query/query6.sql)       
+[query6](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query6.sql)       
 Query 7:  Write a query that lists all the customers that listen to longer-than-average tracks, excluding the tracks that are longer than 15 minutes.   
-[query7](https://github.com/hansama0902/DBMS_Assignment-Project/blob/main/Query/query7.sql)          
+[query7](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query7.sql)          
 Query 8:  Write a query that lists all the tracks that are not in one of the top 5 genres with longer duration in the database.   
-[query8](https://github.com/hansama0902/DBMS_Assignment-Project/blob/main/Query/query8.sql)     
+[query8](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query8.sql)     
 # How to Run
 1.Open Terminal  
 Make sure you are in a terminal window, and navigate to the directory where the chinook.db and query.sql files are located. Use the cd command to navigate to the correct directory. For example:
