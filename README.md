@@ -1,5 +1,5 @@
-# Assignment 3: SQL Practice with SQLite
-This project demonstrates SQL skills using an SQLite sample database The tasks in this assignment are completed using SQL queries, which are run on the provided sample database from [SQLiteTutorial.net](https://www.sqlitetutorial.net/sqlite-sample-database/).
+# Assignment 4:  Query a Database with SQL
+This project demonstrates SQL skills using an SQLite sample database The tasks in this assignment are completed using SQL queries, which are run on the provided sample database from [MediaDB.db](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/DB_Sample/MediaDB.db).
 # Prerequisites
 To run this project, make sure you have the following installed:  
 1.Node.js: [Download here](https://nodejs.org/zh-cn/).  
