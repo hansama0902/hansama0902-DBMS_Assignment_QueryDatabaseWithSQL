@@ -33,16 +33,16 @@ Query 9: Creative addition: Define a new meaningful query using at least three t
 [query9](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/Query/query9.sql) 
 # How to Run
 1.Open Terminal  
-Make sure you are in a terminal window, and navigate to the directory where the chinook.db and query.sql files are located. Use the cd command to navigate to the correct directory. For example:
+Make sure you are in a terminal window, and navigate to the directory where the  MediaDB.db and query.sql files are located. Use the cd command to navigate to the correct directory. For example:
 ```bash
 cd /path/to/your/directory
 ```
 2.Connect to the SQLite Database  
-In the terminal, connect to chinook.db by running the following command:
+In the terminal, connect to  MediaDB.db by running the following command:
 ```bash
-sqlite3 chinook.db
+sqlite3 MediaDB.db
 ```
-This will open SQLite and connect to the chinook.db database.  
+This will open SQLite and connect to the  MediaDB.db database.  
   
 3.Execute the SQL Script  
 Use the .read command to execute each query.sql file:    
@@ -50,7 +50,7 @@ For example:
 ```bash
 .read query1.sql
 ```
-This command will read and execute the SQL statements from the query1.sql file, creating the MusicVideo table in the chinook.db database. 
+This command will read and execute the SQL statements from the query1.sql file, creating the MusicVideo table in the  MediaDB.db database. 
   
 4.Exit SQLite  
 ```bash
