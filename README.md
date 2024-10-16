@@ -6,8 +6,8 @@ To run this project, make sure you have the following installed:
 2.SQLite: The SQLite CLI or an SQLite GUI tool such as DB Browser for SQLite(I used DataGrip)  
 # Steps to Set Up the Environment
 1.Clone this repository  
-2.Download the SQLite sample database from the link below: [MediaDB.db](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/DB_Sample/MediaDB.db).
-3.Place the downloaded chinook.db file in the root directory of this project.  
+2.Download the SQLite sample database from the link below: [MediaDB.db](https://github.com/hansama0902/hansama0902-DBMS_Assignment_QueryDatabaseWithSQL/blob/main/DB_Sample/MediaDB.db).  
+3.Place the downloaded  MediaDB.db file in the root directory of this project.  
 4.Install the necessary dependencies:  
 ```bash
 npm install sqlite3
